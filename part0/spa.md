@@ -26,6 +26,6 @@ sequenceDiagram
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
     activate server
     Note right of server: Server responds with the notes in JSON format
-    server-->>browser: [{ content: "note", ... }]
+    server-->>browser: [{ content: "Mi nueva nota", ... }]
     deactivate server
 ```
